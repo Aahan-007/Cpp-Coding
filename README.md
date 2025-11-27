@@ -1,0 +1,21 @@
+What the code does step-by-step
+1)	Takes 2 inputs from the user → one int and one double.
+2)	Uses a template function to multiply both readings by a calibration factor.
+3)	Converts the integer reading to double so both values can be processed equally.
+4)	Uses a pointer function to adjust the values (adds offsets to simulate fine-tuning).
+5)	Applies clamping (0–100) using reference parameters to ensure values stay valid.
+6)	Casts the adjusted double back to an integer for final comparison.
+7)	Calculates and prints the difference between the final integer and double reading.
+8)	Displays clean formatted output using iomanip.
+How to Compile and Run using simple Commands
+Open the terminal and type:
+g++ Task3_Q4.cpp -o Task3_Q4.exe  To compile the code
+./Task3_Q4.exe  To execute or run the code
+
+Runs Successfully on OnlineGDB Without any other Commands
+This program can also be executed online without requiring compilation commands or local setup. Platforms such as Online GDB allows direct execution by simply pasting the source code and running it.
+This ensures that the program can be tested quickly and conveniently:
+•	No installation or environment configuration needed
+•	No compiler commands are required
+•	Immediately runs and immediate output visibility
+
