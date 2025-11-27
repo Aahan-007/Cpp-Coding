@@ -7,10 +7,13 @@ What the code does step-by-step
 6)	Casts the adjusted double back to an integer for final comparison.
 7)	Calculates and prints the difference between the final integer and double reading.
 8)	Displays clean formatted output using iomanip.
+
+
 How to Compile and Run using simple Commands
 Open the terminal and type:
 g++ Task3_Q4.cpp -o Task3_Q4.exe → To compile the code
 ./Task3_Q4.exe → To execute or run the code
+
 
 Runs Successfully on OnlineGDB Without any other Commands
 This program can also be executed online without requiring compilation commands or local setup. Platforms such as Online GDB allows direct execution by simply pasting the source code and running it.
